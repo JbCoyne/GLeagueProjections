@@ -19,9 +19,9 @@ Data frame that contains the following statistics: Usage rate, field goal attemp
 \details{
 All statistics should be per 100 possessions where possible.
 
-Percentages (Field Goal percentage, Free Throws, Threes) should be in decimal form.
+Percentages (Field Goal percentage, Free Throws, Threes) should be in whole number with decimal form (Between 0 and 100). 
 
-Rates (Usage) should remain as whole numbers with decimals (Between 0 and 100).
+Rates (Usage) should remain as decimals (Between 0 and 1).
 }
 \value{
 Outputs a data frame with classified tiers and rotation probabilities.
